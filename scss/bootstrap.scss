@@ -2,5 +2,9 @@
 $font-family-sans-serif: 'Open Sans', sans-serif;
 // sets the entire website with this font
 // Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
 // change the primary color from the default blue
-$primary: @import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap/scss/bootstrap';
