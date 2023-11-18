@@ -30,5 +30,20 @@ $btn-padding-y-lg: $button-padding-y;
 $navbar-toggler-border-radius: 5px;
 // just for the hamburger menu to keep the radius
 
-// change the primary color from the default blue
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  //   added by me
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+  //   added by me
+) !default;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
